@@ -6,6 +6,9 @@
   <title>Welcome to GitHub Pages</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#157878">
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Text Case Changer; Change or Convert the case of any text to upper case, lower case, sentence case, title case, reverse case, alternate case, studly caps easily." />
+  <meta name="keywords"  content="text case changer,case converter, convert case, convert text, convert to, upper case, lower case, sentence case, title case, studly caps" />
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/TextCaseChanger/assets/css/style.css?v=ffca22c9ac45b905c392f41ff491d9e0e6fc104c">
 <style type="text/css">
@@ -34,6 +37,14 @@
     padding: 1rem 6rem !important;
     }
 }
+
+.center{
+  text-align: center;
+}
+.btn_center{
+  position: relative;
+  left: 50%;
+}
 </style>
 </head>
 
@@ -56,13 +67,16 @@
       <button class="btn2" ng-disabled="disableButtons" ng-click="allLowerCase()">Lower Case</button>
       <button class="btn2" ng-disabled="disableButtons" ng-click="reverseCase()">Reverse Case</button>
       <button class="btn2" ng-disabled="disableButtons" ng-click="studlyCaps()">Alternate Case</button><br/>
-      <textarea ng-model="textBox" ng-change="inputChanged()" style="width: 100%; height: 150px; color:black;" autofocus></textarea><br/>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="sentenceCase()">Sentence Case</button>
+      <textarea ng-model="textBox" ng-change="inputChanged()" style="width: 100%; height: 150px; color:black;" autofocus id="mainText"></textarea><br/>
+<button class="btn2" ng-disabled="disbleButtons" ng-click="sentenceCase()">Sentence case</button>
 <button class="btn2" ng-disabled="disbleButtons" ng-click="firstLetterUpperCase()">Title Case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="allUpperCase()">Upper Case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="allLowerCase()">Lower Case</button>
+<button class="btn2" ng-disabled="disbleButtons" ng-click="allUpperCase()">UPPER CASE</button>
+<button class="btn2" ng-disabled="disbleButtons" ng-click="allLowerCase()">lower case</button>
 <button class="btn2" ng-disabled="disbleButtons" ng-click="reverseCase()">Reverse Case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="studlyCaps()">Alternate Case</button><br/>
+<button class="btn2" ng-disabled="disbleButtons" ng-click="studlyCaps()">StUdLyCaPs</button><br/>
+<span class="center">
+    <button class="btn2 btn_center" ng-disabled="disbleButtons" ng-click="copyToClipboard()">Copy To Clipboard</button>
+</span><br/>
 
 
 <footer class="site-footer">

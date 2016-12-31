@@ -80,4 +80,12 @@ app.controller("CaseChangerController",['$scope',function($scope){
         $scope.disableButtons=false;
     } 
 
+    $scope.copyToClipboard =function()
+    {
+        $scope.disableButtons=true;
+        document.getElementById("mainText").select();
+        document.execCommand('copy');
+        $scope.disableButtons=false;
+    }
+
 }]);
