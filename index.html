@@ -41,10 +41,6 @@
 .center{
   text-align: center;
 }
-.btn_center{
-  position: relative;
-  left: 50%;
-}
 </style>
 </head>
 
@@ -74,9 +70,9 @@
 <button class="btn2" ng-disabled="disbleButtons" ng-click="allLowerCase()">lower case</button>
 <button class="btn2" ng-disabled="disbleButtons" ng-click="reverseCase()">Reverse Case</button>
 <button class="btn2" ng-disabled="disbleButtons" ng-click="studlyCaps()">StUdLyCaPs</button><br/>
-<span class="center">
-    <button class="btn2 btn_center" ng-disabled="disbleButtons" ng-click="copyToClipboard()">Copy To Clipboard</button>
-</span><br/>
+<div class="center">
+    <button class="btn2" ng-disabled="disbleButtons" ng-click="copyToClipboard()">Copy To Clipboard</button>
+</div><br/>
 
 
 <footer class="site-footer">

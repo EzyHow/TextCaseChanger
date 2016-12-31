@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Text Case Changer
 
-You can use the [editor on GitHub](https://github.com/TechWord/TextCaseChanger/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+It is a JavaScript based text case changer tool. You can use the [Text Case Changer](https://techword.github.io/TextCaseChanger/) to easily change case of any text to upper case, lower case, sentence case, title case, reverse case, studly caps.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Developers View
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It uses Angular (v1.6.1). To run it on your system:
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+git clone https://github.com/TechWord/TextCaseChanger.git
 
-- Bulleted
-- List
+cd TextCaseChanger
 
-1. Numbered
-2. List
+npm install
 
-**Bold** and _Italic_ and `Code` text
+grunt
 
-[Link](url) and ![Image](src)
+(Now open index.html in any web browser.)
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+You may need to install [grunt cli](http://gruntjs.com/using-the-cli)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TechWord/TextCaseChanger/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Harinder Singh (Twitter: [@EzyHow](https://twitter.com/ezyhow))
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
