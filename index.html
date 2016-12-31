@@ -27,15 +27,16 @@
 
 <h2>Input</h2>
 <p>Type or paste your text below:</p><br/>
-<textarea wrap="off" cols="30" rows="5" ng-model="input" ng-change="inputChanged()"></textarea><br/>
+<textarea cols="60" rows="5" ng-model="textBox" ng-change="inputChanged()"></textarea><br/>
 <h2>Output</h2>
-
-           <textarea wrap="off" cols="60" rows="5" ng-model="firstLetterUpperCase"></textarea><br/>
-           <textarea wrap="off" cols="60" rows="5" ng-model="allUpperCase"></textarea><br/>
-           <textarea wrap="off" cols="60" rows="5" ng-model="allLowerCase"></textarea><br/>
-           <textarea wrap="off" cols="60" rows="5" ng-model="reverseCase"></textarea><br/>
-           <textarea wrap="off" cols="60" rows="5" ng-model="studlyCaps"></textarea><br/>
-           <textarea wrap="off" cols="60" rows="5" ng-model="sentenceCase"></textarea><br/>
+<button ng-click="firstLetterUpperCase()">Title Case</button>
+    <button ng-click="allUpperCase()">Upper Case</button>
+    <button ng-click="allLowerCase()">Lower Case</button>
+    <button ng-click="reverseCase()">Reverse Case</button>
+    <button ng-click="studlyCaps()">Alternate Case</button>
+    <button ng-click="sentenceCase()">Sentence Case</button><br/>
+    
+          
 <h3 id="markdown">Markdown</h3>
 
 <p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
@@ -77,6 +78,6 @@
       </footer>
     </section>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.min.js"></script>
   </body>
 </html>

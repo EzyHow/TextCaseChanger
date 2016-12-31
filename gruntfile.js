@@ -21,7 +21,7 @@ module.exports = function(grunt) {
                 mangle:true
             },
             src:['node_modules/angular/angular.js','src/modules/*.js','src/controllers/*.js'],          
-            dest:'js/app.js'
+            dest:'js/app.min.js'
         }
     }
   });
