@@ -78,26 +78,20 @@
 
     <div class="main-content" ng-app="CaseChanger" ng-controller="CaseChangerController" ng-init="intialize()">
 
-      <h2>Type or Paste Text Below</h2>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="sentenceCase()">Sentence Case</button>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="firstLetterUpperCase()">Title Case</button>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="allUpperCase()">Upper Case</button>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="allLowerCase()">Lower Case</button>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="reverseCase()">Reverse Case</button>
-      <button class="btn2" ng-disabled="disableButtons" ng-click="studlyCaps()">Alternate Case</button><br/>
+      <h2>Type or Paste Text Below</h2>      
       <textarea ng-model="textBox" ng-change="inputChanged()" style="width: 100%; height: 150px; color:black;" autofocus id="mainText"></textarea><br/>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="sentenceCase()">Sentence case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="firstLetterUpperCase()">Title Case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="allUpperCase()">UPPER CASE</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="allLowerCase()">lower case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="reverseCase()">Reverse Case</button>
-<button class="btn2" ng-disabled="disbleButtons" ng-click="studlyCaps()">StUdLyCaPs</button><br/>
-<div class="center">
-    <button class="btn2" ng-disabled="disbleButtons" ng-click="copyToClipboard()">Copy To Clipboard</button>
-</div><br/>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="sentenceCase()">Sentence case</button>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="firstLetterUpperCase()">Title Case</button>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="allUpperCase()">UPPER CASE</button>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="allLowerCase()">lower case</button>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="reverseCase()">Reverse Case</button>
+      <button class="btn2" ng-disabled="disbleButtons" ng-click="studlyCaps()">StUdLyCaPs</button><br/>
+      <div class="center">
+          <button class="btn2" ng-disabled="disbleButtons" ng-click="copyToClipboard()">Copy To Clipboard</button>
+      </div><br/>
 
 
-<footer class="site-footer">
+<footer class="site-footer center">
 
   <span class="site-footer-owner"><a href="https://github.com/TechWord/TextCaseChanger">TextCaseChanger</a> is maintained by <a href="https://github.com/TechWord">TechWord</a>.</span>
 
