@@ -4,7 +4,7 @@ app.controller("CaseChangerController",['$scope',function($scope){
     {
         $scope.disableButtons=true;
         $scope.disableButtons=false;
-        $scope.textBox="Type or paste your text here and click on desired button to see magic."
+        $scope.textBox="Type or paste your text here and click on the desired button to see magic."
     }
 
    /*For all letters in Upper Case*/
